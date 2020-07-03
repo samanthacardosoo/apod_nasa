@@ -2,8 +2,11 @@ html {
     background: gray;
 }
 
-h1 {
+body {
     text-align: center;
+}
+
+h1 {
     font-size: 40px;
     font-weight: bold;
     padding: 20px;
@@ -11,13 +14,12 @@ h1 {
 }
 
 p {
-    text-align: center;
     padding: 10px;
     margin: 5px;
 }
 
 #image {
-    justify-content: center;
+    width: 75%;
 }
 
 #title {
