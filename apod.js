@@ -1,5 +1,5 @@
 
-let req = new XMLHTTPRequest();
+let req = new XMLHttpRequest();
     
 req.open("GET", "https://api.nasa.gov/planetary/apod?api_key=pOwBAdf2wrjTLhAdv7bD6SvZEPyaupu1osGM41nW")
         
