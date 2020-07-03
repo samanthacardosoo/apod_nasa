@@ -1,0 +1,24 @@
+html {
+    background: gray;
+}
+
+h1 {
+    text-align: center;
+    font-size: bold;
+    font-weight: 65px;
+    padding: 20px;
+    margin: 5px;
+}
+
+p {
+    text-align: center;
+    margin: 5px;
+}
+
+#title {
+    font-size: bold;
+}
+
+#copyright {
+    font-size: bold;
+}
