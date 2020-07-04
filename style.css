@@ -10,18 +10,19 @@ body {
 h1 {
     font-size: 55px;
     font-weight: bold;
-    color: #f1e6ce;
+    color: #efecea;
     padding: 20px;
     margin: 5px;
 }
 
 #intro {
     margin: 0 15%;
-    margin-bottom: 3%
+    margin-bottom: 3%;
+    line-height: 1.5;
 }
 
 p {
-    color: #f1e6ce;
+    color: #efecea;
     font-size:20px;
     padding: 10px;
     margin: 5px;
@@ -29,7 +30,7 @@ p {
 
 #image {
     width: 70%;
-    border: 3px solid #07032783;
+    border: 3px solid #1ea386;
     border-radius: 20px;
 }
 
@@ -41,16 +42,19 @@ p {
 #copyright {
     font-weight: bold;
     font-style: italic;
+    padding-top: 2px;
 }
 
 #explanation {
     text-align: justify;
     margin: 0 15%;
-    margin-bottom: 3%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 footer {
-    color: #f1e6ce;
-    background: #07032783;
-    padding: 8px;
+    color: #efecea;
+    background: #1ea386;
+    padding: 12px;
 }
