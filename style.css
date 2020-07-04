@@ -58,3 +58,9 @@ footer {
     background: #1ea386;
     padding: 12px;
 }
+
+@media(max-width:768px) {
+    #image {
+        width: 95%
+    }
+}
