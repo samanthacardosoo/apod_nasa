@@ -1,31 +1,56 @@
 html {
-    background: gray;
+    background: #171731;
 }
 
 body {
+    font-family: 'Ubuntu Condensed', sans-serif;
     text-align: center;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 55px;
     font-weight: bold;
+    color: #f1e6ce;
     padding: 20px;
     margin: 5px;
 }
 
+#intro {
+    margin: 0 15%;
+    margin-bottom: 3%
+}
+
 p {
+    color: #f1e6ce;
+    font-size:20px;
     padding: 10px;
     margin: 5px;
 }
 
 #image {
-    width: 75%;
+    width: 70%;
+    border: 3px solid #07032783;
+    border-radius: 20px;
 }
 
 #title {
+    font-size: 30px;
     font-weight: bold;
 }
 
 #copyright {
     font-weight: bold;
+    font-style: italic;
+}
+
+#explanation {
+    text-align: justify;
+    margin: 0 15%;
+    margin-bottom: 3%;
+}
+
+footer {
+    color: #f1e6ce;
+    background: #07032783;
+    padding: 8px;
 }
