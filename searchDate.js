@@ -1,6 +1,7 @@
-let btnDate = document.querySelector("btnSearch");
+let btnDate = document.querySelector("selectDate");
 
-btnSearch.addEventListener("click", function(){
+selectDate.addEventListener("submit", function(){
+    event.preventDefault()
     let reqDate = new XMLHttpRequest();         
         reqDate.open("GET", `https://api.nasa.gov/planetary/apod?api_key=pOwBAdf2wrjTLhAdv7bD6SvZEPyaupu1osGM41nW&date=${this.elements.date.value}`);
         
@@ -16,10 +17,9 @@ btnSearch.addEventListener("click", function(){
                 date.textContent = respostaData.date;
                 image.src = respostaData.url;
                 title.textContent = respostaData.title;
-                copyright.textContent += respostaData.copyright;
+                copyright.textContent = respostaData.copyright;
                 explanation.textContent = respostaData.explanation;
                 
-                event.preventDefault()
             } else {
                 alert ("Ocorreu um erro")
             }    
