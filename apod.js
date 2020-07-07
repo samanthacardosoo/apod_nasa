@@ -1,9 +1,9 @@
-
 let req = new XMLHttpRequest();
     
 req.open("GET", "https://api.nasa.gov/planetary/apod?api_key=pOwBAdf2wrjTLhAdv7bD6SvZEPyaupu1osGM41nW")
         
 req.addEventListener("load", function(){
+    if (req.status == 200) {
         let resposta = JSON.parse(req.responseText);
         let date = document.querySelector("#date");
         let image = document.querySelector("#image");
@@ -14,8 +14,11 @@ req.addEventListener("load", function(){
         date.textContent = resposta.date;
         image.src = resposta.url;
         title.textContent = resposta.title;
-        copyright.textContent = resposta.copyright;
+        copyright.textContent += resposta.copyright;
         explanation.textContent = resposta.explanation;
+    } else {
+        alert ("Ocorreu um erro")
+    }
     });
 
     req.send();

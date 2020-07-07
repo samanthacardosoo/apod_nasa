@@ -21,6 +21,19 @@ h1 {
     line-height: 1.5;
 }
 
+#anotherDate {
+    font-size: 15px;
+    font-style: italic;
+}
+
+#selectDate {
+    padding: 20px;
+}
+
+#btnSearch {
+    margin-left: 5px;
+}
+
 p {
     color: #efecea;
     font-size:20px;
