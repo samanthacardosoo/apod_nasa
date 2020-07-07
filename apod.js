@@ -14,7 +14,7 @@ req.addEventListener("load", function(){
         date.textContent = resposta.date;
         image.src = resposta.url;
         title.textContent = resposta.title;
-        copyright.textContent += resposta.copyright;
+        copyright.textContent = resposta.copyright;
         explanation.textContent = resposta.explanation;
     } else {
         alert ("Ocorreu um erro")
