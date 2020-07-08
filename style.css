@@ -47,6 +47,17 @@ p {
     border-radius: 20px;
 }
 
+#frame {
+    width: 70%;
+    height: 500px;
+    border: 3px solid #1ea386;
+    border-radius: 20px;    
+}
+
+.invisible {
+    display:none;
+}
+
 #title {
     font-size: 30px;
     font-weight: bold;
@@ -74,6 +85,9 @@ footer {
 
 @media(max-width:768px) {
     #image {
+        width: 95%
+    }
+    #frame {
         width: 95%
     }
 }
